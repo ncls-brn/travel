@@ -1,4 +1,5 @@
  .NavbarItems{
+   background-color: #FFF;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -67,7 +68,7 @@ button{
 button:hover{
    background-color: #151516;
    color: #FFF;
-}
+} 
 
 .menu-icons{
    display: none;
