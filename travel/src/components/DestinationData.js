@@ -9,8 +9,8 @@ class DestinationData extends Component{
         return(
             <div className="frist-des">
                 <div className="des-text">
-                    <h2>Jungfraujoch, Suisse</h2>
-                    <p>Nearby, the Jungraujoch is a pass connecting the Mönche and the Jungfrau, in the heart of the Bernese Alps between the cantons of Bern and the Valais: it rises to 3471 meters above sea level and can be reached by means of an amazing railway, and even a delicious restaurant with breathtaking views of the surrounding mountains.</p>
+                    <h2>{this.props.heading}</h2>
+                    <p>{this.props.text}</p>
                 </div>
                 <div className="image">
                     <img alt="img" src={Mountain1}/>
