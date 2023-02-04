@@ -6,8 +6,16 @@
     font-size: 3rem;
 }
 
-.frist-des{
+.first-des{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-des-reverse{
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
@@ -55,9 +63,15 @@
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
+    .first-des-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
     .des-text{
         width: 100%;
     }
+    
     .image{
         width: 100%;
         margin: 1.8rem 0;
